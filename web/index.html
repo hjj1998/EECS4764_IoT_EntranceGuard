@@ -1,0 +1,421 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Columbia University EECS E4764 IoT Project Report #0</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<!-- <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span> -->
+							<h1 id="title">Project Name</h1>
+							<p>Columbia University <br>
+								EECS E4764 Fall'21 Internet of Things<br>
+								Intelligent and Connected Systems<br>
+								Team 13 Project Report
+							</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<!--
+
+								Prologue's nav expects links in one of two formats:
+
+								1. Hash link (scrolls to a different section within the page)
+
+								   <li><a href="#foobar" id="foobar-link" class="icon fa-whatever-icon-you-want skel-layers-ignoreHref"><span class="label">Foobar</span></a></li>
+
+								2. Standard link (sends the user to another page/site)
+
+								   <li><a href="http://foobar.tld" id="foobar-link" class="icon fa-whatever-icon-you-want"><span class="label">Foobar</span></a></li>
+
+							-->
+							<ul>
+								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Abstract</span></a></li>
+								<li><a href="#motivation" id="motivation-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Motivation</span></a></li>
+								<li><a href="#system" id="system-link" class="skel-layers-ignoreHref"><span class="icon fa-th">System</span></a></li>
+								<li><a href="#results" id="results-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Results</span></a></li>
+								<li><a href="#references" id="references-link" class="skel-layers-ignoreHref"><span class="icon fa-th">References</span></a></li>
+								<li><a href="#team" id="team-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Our Team</span></a></li>
+								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/QpNHzRDCBg8" frameborder="0" allowfullscreen></iframe>
+
+							<h2 class="alt"><strong>Safeguard OnDuty</strong></h2>
+								<h3 class="alt">What is it</h3>
+								<p>
+									Our team focusing on developing a door access control system with mask recognition, temperature monitoring and
+									hand sanitizing models.
+								</p>
+								<h3 class="alt">How it works</h3>
+								<p>
+									When a visitor attempts approaching a door installed with Safeguard on Duty module, our system will automatically
+									check whether the person is properly wearing a mask and his body temperature. Only if the person is wearing a mask
+									and the body temperature is normal could have access to this door. Besides, the person also has to finish hand sanitization
+									to gain access. With all safety check passed, the door will open and allow for entrance.
+								</p>
+
+
+							<footer>
+								<a href="#motivation" class="button scrolly">Motivation</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Portfolio -->
+					<section id="motivation" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Motivation</h2>
+							</header>
+
+							<p align="left">
+								Given that the more contagious variant is spreading across the United States
+								and there is someone who has a weakened immune system, is not yet vaccinated, or is at increased
+								risk for severe disease, continuing to wear a mask indoors anytime you’re around people is very important.
+								This is regardless of vaccination status or the level of transmission in one area. Besides, health experts
+								are encouraging all people to wear a mask indoors in public if they are in an area of “substantial or high
+								transmission”. Wearing a mask in places with higher potential transmission will protect people against the
+								variant and prevent them from possibly spreading it to others. Thus, our system will enforce indoor
+								mask-wearing and help to suppress the spread of the COVID-19 virus.
+							</p>
+
+
+
+						</div>
+					</section>
+
+
+
+					<section id="system" class="four">
+						<div class="container">
+
+							<header>
+								<h2>System</h2>
+							</header>
+
+							<h3 align="left">Architecture</h3>
+							<br />
+							<article class="item">
+								<a href="#" class="image fit"><img src="images/architect.png" alt="" /></a>
+								<header>
+									<h3>Flowchart</h3>
+								</header>
+							</article>
+
+							<h3 align="left">Technical Components</h3>
+							<br />
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/camera.jpg" alt="" /></a>
+										<header>
+											<h3>Camera</h3>
+											<p>Raspberry PI Camera (CSI Interface +5 Million Pixels) </p>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/display.jpg" alt="" /></a>
+										<header>
+											<h3>Display</h3>
+											<p> IPS Touch Screen LCD Display, 800x480 HDMI</p>
+										</header>
+									</article>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/steer.jpg" alt="" /></a>
+										<header>
+											<h3>Steering Engine</h3>
+											<p>
+												Servomotor, steering geer
+												SER0006
+											</p>
+
+										</header>
+									</article>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/thermometer.jpg" alt="" /></a>
+										<header>
+											<h3>Thermometer</h3>
+											<p>SparkFun IR Thermometer Evaluation Board - MLX90614</p>
+										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/pressure_sensor.jpg" alt="" /></a>
+										<header>
+											<h3>Pressure Sensor</h3>
+											<p>Square Force-Sensitive Resistor (FSR) </p>
+										</header>
+									</article>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/ras.jpeg" alt="" /></a>
+										<header>
+											<h3>Raspberry Pi Model 4b</h3>
+											<p>4GB RAM with 1.5GHz 64-bit quad-core CPU</p>
+										</header>
+									</article>
+								</div>
+							</div>
+
+							<br>
+							<h3 align="left">Flowchart</h3>
+							<br />
+							<article class="item">
+								<a href="#" class="image fit"><img src="images/flowchart.png" alt="" /></a>
+								<header>
+									<h3>Block Diagram</h3>
+								</header>
+							</article>
+							<br />
+
+
+						</div>
+					</section>
+
+
+					<section id="results" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Results</h2>
+							</header>
+
+<!--							<p align="left">Remember to use figureTechnical Components
+s to help illustrate results</p>-->
+
+							<h3 align="left">Front View</h3>
+							<br />
+							<div class="row">
+								<article class="item">
+									<a href="#" class="image fit"><img src="images/front.jpg" alt="" /></a>
+									<header>
+										<h3>Front View</h3>
+									</header>
+								</article>
+							</div>
+
+							<br />
+							<h3 align="left">Internal View</h3>
+							<br />
+							<div class="row">
+								<article class="item">
+									<a href="#" class="image fit"><img src="images/internal.jpg" alt="" /></a>
+									<header>
+										<h3>Internal View</h3>
+									</header>
+								</article>
+							</div>
+						</div>
+					</section>
+
+
+				<section id="Future work" class="two">
+					<div class="container">
+						<header>
+							<h2>Future work</h2>
+						</header>
+
+						<p align="left">
+							There are several possible improvements to make our current system even better!
+						</p>
+
+						<p align="left">
+							1. Modularized Design. Our system design is highly modularized. Instead of having the whole system integrated in a box like
+							we did in the demo, we can utilize the modularized design feature to distribute each part of the system to different places
+							to make the system smaller and easier for installation.
+						</p>
+
+						<p align="left">
+							2. Better sensors. Replacing the current budget choice MLX90614 sensor with medical level thermometer would decrease the error
+							rate of temperature check and improve the overall system performance.
+							The Raspberry pi camera can be replaced with any sensor with video inputs through any protocols like Webcam or IP camera using HLS video streaming protocol.
+							The current processing unit Raspberry Pi can also be replaced by virtual machine on cluster.
+						</p>
+
+						<p align="left">
+							3. Data extensions. Adding student id card scanner and access to the student database as an extension module to the system would help the administrator has a
+							better knowledge of building accessing pattern or even help locating students who have fever and trying to gain building access.
+						</p>
+
+
+					</div>
+				</section>
+
+
+				<section id="references" class="three">
+						<div class="container">
+
+							<header>
+								<h2>References</h2>
+							</header>
+
+							<p align="left">[1] Ansor, Acep, Ritzkal Ritzkal, and Yuggo Afrianto. "Mask Detection Using Framework Tensorflow and Pre-Trained CNN Model Based on Raspberry Pi." Jurnal Mantik 4.3 (2020): 1539-1545.
+							</p>
+							<p align="left">[2] Prinosil, Jiri, and Ondrej Maly. "Detecting Faces With Face Masks." 2021 44th International Conference on Telecommunications and Signal Processing (TSP). IEEE, 2021.
+							</p>
+							<p align="left">[3] Nowrin, Afsana, et al. "Comprehensive review on facemask detection techniques in the context of covid-19." IEEE access (2021).
+							</p>
+						</div>
+					</section>
+
+
+				<!-- About Me -->
+					<section id="team" class="two">
+						<div class="container">
+
+							<header>Safeguard OnDuty
+								<h2>Our Team</h2>
+							</header>
+
+							<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a> -->
+
+
+							<div class="row">
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/WechatIMG266.jpeg" alt="" /></a>
+										<header>
+											<h3>Qichao Gao</h3>
+											<a href="https://github.com/vcvc-g" target="_blank">Github link：github.com/vcvc-g</a>										</header>
+									</article>
+								</div>
+								<div class="4u 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/jiaxiang.jpeg" alt="" /></a>
+										<header>
+											<h3>Jiaxiang Zhang</h3>
+											<a href="https://github.com/ricardochuang" target="_blank">Github link：github.com/ricardochuang</a>										</header>
+										</header>
+									</article>
+								</div>
+								<div class="4u$ 12u$(mobile)">
+									<article class="item">
+										<a href="#" class="image fit"><img src="images/jiajun.jpeg" alt="" /></a>
+										<header>
+											<h3>Jiajun Han</h3>
+											<a href="https://github.com/hjj1998" target="_blank">Github link：github.com/ricardochuang</a>										</header>
+										</header>
+									</article>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p align="left">
+								<strong>Qichao Gao: </strong>qg2192@columbia.edu</br>
+								<strong>Jiaxiang Zhang: </strong>jz3275@columbia.edu</br>
+								<strong>JiajunHan: </strong>jh4316@columbia.edu</br>
+							</br>
+								<strong>Columbia University </strong><a href="http://www.ee.columbia.edu">Department of Electrical Engineering</a><br>
+								<!-- <strong>Class Website:</strong>
+									<a href="https://edblogs.columbia.edu/eecs4764-001-2019-3/">Columbia University EECS E4764 Fall '21 IoT</a></br> -->
+								<strong>Instructor:</strong> <a href="http://fredjiang.com/">Professsor Xiaofan (Fred) Jiang</a>
+							</p>
+
+
+							<!-- <form method="post" action="#">
+								<div class="row">
+									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="12u$">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="12u$">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form> -->
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; IoT Project | All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+f
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
