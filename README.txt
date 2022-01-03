@@ -1,7 +1,7 @@
 # IoT_EntranceGuard
 
 What is it
-Our team focusing on developing a door access control system with mask recognition, temperature monitoring and hand sanitizing models. 
+A door access control system with mask recognition, temperature monitoring and hand sanitizing models. 
 
 How it works
 When a visitor attempts approaching a door installed with Safeguard on Duty module, our system will automatically check whether the person is properly wearing a mask and his body temperature. Only if the person is wearing a mask and the body temperature is normal could have access to this door. Besides, the person also has to finish hand sanitization to gain access. With all safety check passed, the door will open and allow for entrance.
